@@ -1,0 +1,51 @@
+.header {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer {
+    float: left; 
+    width: 100%;
+    text-align: center;
+}
+
+.faq_title{
+	height:40px;
+	background:#6bb170;
+	color:#fff;
+	text-align:center;
+	padding-top:13px;
+}
+
+.faq li{
+	padding:10px 0;
+}
+
+.faq li.q{
+	cursor:pointer;
+}
+
+.faq li.a{
+	background:#337ab7;
+    color: #fff;
+    padding: 10px;
+	display:none;
+}
+
+.rotate{
+	-moz-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	transform:rotate(90deg);
+}
+
+ul,li{
+	list-style:none;
+    padding-left: 0;
+}
+
+#gmap {
+    float: left;
+    width: 100% !important;
+    height: 800px !important;
+}
